@@ -6,9 +6,42 @@
     <title>MarGo</title>
 
     <!-- CSS  -->
-    <link rel="stylesheet" href="CSS/Accueil.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <h1>Page "Accueil"</h1>
+    <header>
+        <div class="logo">
+            <a href="index.html"> <span>Mar</span>Go</a>
+        </div>
+        <ul class="menu">
+            <li><a href="#">Acceuil</a></li>
+            <li><a href="HTML/Propos.html">À propos</a></li>
+            <li><a href="HTML/Destinations.html">Destinations</a></li>
+            <li><a href="HTML/Packages.html">Packages</a></li>
+            <li><a href="HTML/Contact.html">Contact</a></li>
+        </ul>
+        <a href="HTML/Login.html" class="btn-login">Log in</a>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="controls">
+            <span class="vid-btn active" data-src="Images/3.mp4"></span>
+            <span class="vid-btn" data-src="Images/2.mp4"></span>
+            <span class="vid-btn" data-src="Images/1.mp4"></span>
+        </div>
+        
+        <div class="video-container">
+            <video src="Images/3.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+        <div class="hero-content">
+            <h2>Bienvenue au Maroc</h2>
+            <p>Explorez la richesse culturelle et historique des villes antiques et touristiques du Maroc.</p>
+            <a href="#content" class="btn">Découvrir Plus</a>
+        </div>
+    </section>
+
+    <!-- JS  -->
+    <script src="JS/script.js"></script>
 </body>
 </html>
