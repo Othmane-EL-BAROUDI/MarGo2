@@ -7,6 +7,7 @@
 
     <!-- CSS  -->
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/SignUp.css">
 </head>
 <body>
     <header>
@@ -22,7 +23,36 @@
         </ul>
         <a href="Login.html" class="btn-login">Log in</a>
     </header>
-
-    <br><br><br><h1>WELCOME SIGN UP</h1>
+    <section>
+        <div class="login-box">
+            <form action="#">
+                <h2>S'INSCRIRE</h2>
+                <div class="input-box">
+                    <span class="icon"></span>
+                    <input type="text" name="username" required>
+                    <label>Nom D'utilisateur</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"></span>
+                    <input type="email" name="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"></span>
+                    <input type="tel" name="phone" required>
+                    <label>Numéro de telephone</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"></span>
+                    <input type="password" name="password" required>
+                    <label>Mot de Passe</label>
+                </div>
+                <button type="submit"> S'inscrire </button>
+                <div class="register-link">
+                    <p> Vous avez un compte? <a href="Login.html">Se connecter</a></p>
+                </div>
+            </form>
+        </div>
+    </section>
 </body>
 </html>
