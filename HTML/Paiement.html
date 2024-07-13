@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paiement</title>
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/paiement.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"> <span>Mar</span>Go</a>
+        </div>
+        <ul class="menu">
+            <li><a href="../index.html">Acceuil</a></li>
+            <li><a href="#">À propos</a></li>
+            <li><a href="Destinations.html">Destinations</a></li>
+            <li><a href="Packages.html">Packages</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <a href="Login.html" class="btn-login">Log in</a>
+    </header>
+
+    <div class="container">
+        <h1>Confirmer Votre Paiement</h1>
+        <div class="first-row">
+            <div class="owner">
+                <h3>Titulaire de la carte</h3>
+                <div class="input-field">
+                    <input type="text" placeholder="Nom du titulaire">
+                </div>
+            </div>
+            <div class="cvv">
+                <h3>CVV</h3>
+                <div class="input-field">
+                    <input type="password" placeholder="Code de sécurité à 3 chiffres">
+                </div>
+            </div>
+        </div>
+        <div class="second-row">
+            <div class="card-number">
+                <h3>Numéro de carte</h3>
+                <div class="input-field">
+                    <input type="text" placeholder="Numéro de carte">
+                </div>
+            </div>
+        </div>
+        <div class="third-row">
+            <h3>Date d'expiration</h3>
+            <div class="selection">
+                <div class="date">
+                    <select name="months" id="months">
+                        <option value="Jan">Jan</option>
+                        <option value="Feb">Feb</option>
+                        <option value="Mar">Mar</option>
+                        <option value="Apr">Apr</option>
+                        <option value="May">May</option>
+                        <option value="Jun">Jun</option>
+                        <option value="Jul">Jul</option>
+                        <option value="Aug">Aug</option>
+                        <option value="Sep">Sep</option>
+                        <option value="Oct">Oct</option>
+                        <option value="Nov">Nov</option>
+                        <option value="Dec">Dec</option>
+                    </select>
+                    <select name="years" id="years">
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                    </select>
+                </div>
+                <div class="cards">
+                    <img src="../Images/visa.png" alt="">
+                    <img src="../Images/mastercard.png" alt="">
+                    <img src="../Images/paypal.png" alt="">
+                </div>
+            </div>    
+        </div>
+        <a href="">Confirm</a>
+    </div>
+</body>
+</html>
