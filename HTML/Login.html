@@ -7,6 +7,7 @@
 
     <!-- CSS  -->
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/Login.css">
 </head>
 <body>
     <header>
@@ -22,7 +23,33 @@
         </ul>
         <a href="#" class="btn-login">Log in</a>
     </header>
-
-    <br><br><br><h1>WELCOME LOG IN</h1>
+    <section>
+        <div class="login-box">
+            <form action="#">
+                <h2>SE CONNECTER</h2>
+                <div class="input-box">
+                    <span class="icon"></span>
+                    <input type="email" name="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"></span>
+                    <input type="password" name="password" required>
+                    <label>Mot de Passe</label>
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox" name="remember">
+                       Se rappeler de moi
+                    </label>
+                    <a href="ForgotPassword.html">Mot de Passe oublié?</a>
+                </div>
+                <button type="submit">Connexion</button>
+                <div class="register-link">
+                    <p> Vous n'avez pas de compte ? <a href="SignUp.html">S'inscrire</a></p>
+                </div>
+            </form>
+        </div>
+    </section>
 </body>
 </html>
