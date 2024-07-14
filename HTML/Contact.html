@@ -7,15 +7,15 @@
     
     <!-- CSS  -->
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <a href="index.html"> <span>Mar</span>Go</a>
+            <a href="../index.html"> <span>Mar</span>Go</a>
         </div>
         <ul class="menu">
-            <li><a href="../index.html">Acceuil</a></li>
-            <li><a href="Propos.html">À propos</a></li>
+            <li><a href="../index.html">Accueil</a></li>
             <li><a href="Destinations.html">Destinations</a></li>
             <li><a href="Packages.html">Packages</a></li>
             <li><a href="#">Contact</a></li>
@@ -23,6 +23,28 @@
         <a href="Login.html" class="btn-login">Log in</a>
     </header>
 
-    <br><br><br><h1>WELCOME CONTACT US</h1>
+    <section>
+        <div class="wrapper1">
+            <div class="title1">
+                <h1>Contact us</h1>
+            </div>
+            <div class="contact-form">
+                <form method="" action="">
+                    <div class="input-fields">
+                        <input type="text" class="input" placeholder="Name" name="name">
+                        <input type="email" class="input" placeholder="Email Address" name="email" pattern=".+@gmail\.com">
+                        <input type="phone" class="input" placeholder="Phone" name="phone">
+                        <input type="text" class="input" placeholder="Subject" name="subject">
+                    </div>
+                    <div class="msg">
+                        <textarea placeholder="Message" name="message"></textarea>
+                        <div class="btn1">
+                            <button type="submit">send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

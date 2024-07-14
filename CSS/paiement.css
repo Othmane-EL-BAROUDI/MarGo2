@@ -68,7 +68,7 @@ body{
     transition: 0.5s;
 }
 
-a:hover{
+.container a:hover{
     background-color: dodgerblue;
 }
 
