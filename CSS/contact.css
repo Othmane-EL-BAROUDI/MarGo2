@@ -1,0 +1,71 @@
+section{
+    padding: 4.5rem 9%;
+}
+
+.wrapper1 {
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    max-width: 550px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #eee;
+}
+
+.wrapper1 .title1 h1 {
+    color: green;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 3.5rem;
+}
+
+.uil {
+    height: 50px;
+    width: 50px;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input-fields,
+.msg {
+    width: 90%;
+}
+
+.input-fields .input,
+.msg textarea {
+    margin: 30px 0;
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid #5f66618f;
+    padding: 10px;
+    color: #eee;
+    width: 100%;
+  }
+  
+.msg textarea {
+    height: 120px;
+}
+
+.btn1 {
+    text-align: center;
+}
+
+.btn1 button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.btn1 button:hover {
+    background-color: #45a049;
+}
