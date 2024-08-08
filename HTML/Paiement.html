@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paiement</title>
-
     <!-- CSS  -->
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/paiement.css">
@@ -24,67 +23,79 @@
     </header>
 
     <div class="container">
-        <h1>Confirmer Votre Paiement</h1>
-        <div class="first-row">
-            <div class="owner">
-                <h3>Titulaire de la carte</h3>
-                <div class="input-field">
-                    <input type="text" placeholder="Nom du titulaire">
+        <form id="paymentForm">
+            <h1>Confirmer Votre Paiement</h1>
+            <div class="first-row">
+                <div class="owner">
+                    <h3>Titulaire de la carte</h3>
+                    <div class="input-field">
+                        <input type="text" name="cardOwner" placeholder="Nom du titulaire">
+                        <div id="cardOwnerError" class="error-message"></div>
+                    </div>
+                </div>
+                <div class="cvv">
+                    <h3>CVV</h3>
+                    <div class="input-field">
+                        <input type="password" name="cvv" placeholder="Code de sécurité à 3 chiffres">
+                        <div id="cvvError" class="error-message"></div>
+                    </div>
                 </div>
             </div>
-            <div class="cvv">
-                <h3>CVV</h3>
-                <div class="input-field">
-                    <input type="password" placeholder="Code de sécurité à 3 chiffres">
+            <div class="second-row">
+                <div class="card-number">
+                    <h3>Numéro de carte</h3>
+                    <div class="input-field">
+                        <input type="text" name="cardNumber" placeholder="Numéro de carte">
+                        <div id="cardNumberError" class="error-message"></div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="second-row">
-            <div class="card-number">
-                <h3>Numéro de carte</h3>
-                <div class="input-field">
-                    <input type="text" placeholder="Numéro de carte">
+            <div class="third-row">
+                <h3>Date d'expiration</h3>
+                <div class="selection">
+                    <div class="date">
+                        <select name="months">
+                            <option value="">Mois</option>
+                            <option value="Jan">Jan</option>
+                            <option value="Feb">Feb</option>
+                            <option value="Mar">Mar</option>
+                            <option value="Apr">Apr</option>
+                            <option value="May">May</option>
+                            <option value="Jun">Jun</option>
+                            <option value="Jul">Jul</option>
+                            <option value="Aug">Aug</option>
+                            <option value="Sep">Sep</option>
+                            <option value="Oct">Oct</option>
+                            <option value="Nov">Nov</option>
+                            <option value="Dec">Dec</option>
+                        </select>
+                        <select name="years">
+                            <option value="">Année</option>
+                            <option value="2032">2032</option>
+                            <option value="2031">2031</option>
+                            <option value="2030">2030</option>
+                            <option value="2029">2029</option>
+                            <option value="2028">2028</option>
+                            <option value="2027">2027</option>
+                            <option value="2026">2026</option>
+                            <option value="2025">2025</option>
+                            <option value="2024">2024</option>
+                        </select>
+                        <div id="expirationDateError" class="error-message"></div>
+                    </div>
+                    <div class="cards">
+                        <img src="../Images/visa.png" alt="">
+                        <img src="../Images/mastercard.png" alt="">
+                        <img src="../Images/paypal.png" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="third-row">
-            <h3>Date d'expiration</h3>
-            <div class="selection">
-                <div class="date">
-                    <select name="months" id="months">
-                        <option value="Jan">Jan</option>
-                        <option value="Feb">Feb</option>
-                        <option value="Mar">Mar</option>
-                        <option value="Apr">Apr</option>
-                        <option value="May">May</option>
-                        <option value="Jun">Jun</option>
-                        <option value="Jul">Jul</option>
-                        <option value="Aug">Aug</option>
-                        <option value="Sep">Sep</option>
-                        <option value="Oct">Oct</option>
-                        <option value="Nov">Nov</option>
-                        <option value="Dec">Dec</option>
-                    </select>
-                    <select name="years" id="years">
-                        <option value="2032">2032</option>
-                        <option value="2031">2031</option>
-                        <option value="2030">2030</option>
-                        <option value="2029">2029</option>
-                        <option value="2028">2028</option>
-                        <option value="2027">2027</option>
-                        <option value="2026">2026</option>
-                        <option value="2025">2025</option>
-                        <option value="2024">2024</option>
-                    </select>
-                </div>
-                <div class="cards">
-                    <img src="../Images/visa.png" alt="">
-                    <img src="../Images/mastercard.png" alt="">
-                    <img src="../Images/paypal.png" alt="">
-                </div>
-            </div>    
-        </div>
-        <a href="">Confirmer</a>
+            <div id="successMessage" class="success-message" style="display: none;">Paiement validé avec succès!</div>
+            <button type="submit">Confirmer</button>
+        </form>
     </div>
+
+    <!-- JS  -->
+    <script src="../JS/paiement.js"></script>
 </body>
 </html>

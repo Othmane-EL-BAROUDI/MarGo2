@@ -15,12 +15,13 @@ body{
     display: flex;
     flex-direction: column;
     padding: 40px;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .container h1{
     text-align: center;
     color: #333;
+    margin: 10px;
 }
 
 .first-row{
@@ -38,13 +39,15 @@ body{
 
 .input-field{
     border: 1px solid #999;
+    margin-bottom: 20px;
 }
 
-.input-field input{
+.input-field input, .selection select {
     width: 100%;
-    border:none;
+    border: none;
     outline: none;
     padding: 10px;
+    margin-bottom: 5px;
 }
 
 .selection{
@@ -55,6 +58,7 @@ body{
 
 .selection select{
     padding: 10px 20px;
+    border: 1px solid #333;
 }
 
 .container a{
@@ -75,4 +79,34 @@ body{
 .cards img{
     width: 60px;
     height: 60px;
+}
+
+form button {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    transition: 0.5s;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: dodgerblue;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+.success-message {
+    color: green;
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: center;
 }
