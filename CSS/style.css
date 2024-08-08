@@ -146,7 +146,59 @@ header  .logo a span {
     background-color: #ffd700;
     color: #800000;
 }
+.footer-container {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
 
+.footer-logo a {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
 
-/************* A propos *************/
+.footer-logo span {
+    color: #00aced;
+}
 
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-menu li {
+    display: inline;
+}
+
+.footer-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.footer-social {
+    margin: 20px 0;
+}
+
+.footer-social a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-text {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #aaa;
+}

@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    
-    <!-- CSS  -->
+
+    <!-- CSS -->
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/contact.css">
+    <style>
+        .error {
+            color: red;
+            font-size: 0.9em;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -29,22 +35,45 @@
                 <h1>Contact us</h1>
             </div>
             <div class="contact-form">
-                <form method="" action="">
+                <form id="contactForm" novalidate>
                     <div class="input-fields">
                         <input type="text" class="input" placeholder="Name" name="name">
+                        <span class="error" id="nameError"></span>
                         <input type="email" class="input" placeholder="Email Address" name="email" pattern=".+@gmail\.com">
-                        <input type="phone" class="input" placeholder="Phone" name="phone">
+                        <span class="error" id="emailError"></span>
+                        <input type="tel" class="input" placeholder="Phone" name="phone">
+                        <span class="error" id="phoneError"></span>
                         <input type="text" class="input" placeholder="Subject" name="subject">
+                        <span class="error" id="subjectError"></span>
                     </div>
                     <div class="msg">
                         <textarea placeholder="Message" name="message"></textarea>
+                        <span class="error" id="messageError"></span>
                         <div class="btn1">
-                            <button type="submit">send</button>
+                            <button type="submit">Send</button>
                         </div>
+                        <div id="successMessage" class="hidden">SUCCESS!</div>
                     </div>
                 </form>
             </div>
         </div>
     </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="index.html"> <span>Mar</span>Go</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><img src="../Images/Facebookpng.png" alt="Facebook"></a>
+                <a href="#"><img src="../Images/Twitterlogo.png" alt="Twitter"></a>
+                <a href="#"><img src="../Images/Instagrampng.png" alt="Instagram"></a>
+            </div>
+            <p class="footer-text">&copy; 2024 MarGo. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../js/contact.js"></script>
 </body>
 </html>
+

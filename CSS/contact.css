@@ -69,3 +69,18 @@ section{
 .btn1 button:hover {
     background-color: #45a049;
 }
+.hidden {
+    display: none;
+}
+
+.success {
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#successMessage {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
