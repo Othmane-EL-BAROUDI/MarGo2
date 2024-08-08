@@ -28,30 +28,36 @@
                 <h2>S'INSCRIRE</h2>
                 <div class="input-box">
                     <span class="icon"></span>
-                    <input type="text" name="username" required>
+                    <input type="text" name="username">
                     <label>Nom D'utilisateur</label>
+                    <div class="error"></div>
                 </div>
                 <div class="input-box">
                     <span class="icon"></span>
-                    <input type="email" name="email" required>
+                    <input type="email" name="email">
                     <label>Email</label>
+                    <div class="error"></div>
                 </div>
                 <div class="input-box">
                     <span class="icon"></span>
-                    <input type="tel" name="phone" required>
-                    <label>Numéro de telephone</label>
+                    <input type="tel" name="phone">
+                    <label>Numéro de téléphone</label>
+                    <div class="error"></div>
                 </div>
                 <div class="input-box">
                     <span class="icon"></span>
-                    <input type="password" name="password" required>
+                    <input type="password" name="password">
                     <label>Mot de Passe</label>
+                    <div class="error"></div>
                 </div>
-                <button type="submit"> S'inscrire </button>
+                <button type="submit">S'inscrire</button>
+            <div id="success-message" class="success-message" style="display: none;"></div>
                 <div class="register-link">
-                    <p> Vous avez un compte? <a href="Login.html">Se connecter</a></p>
+                    <p>Vous avez un compte? <a href="Login.html">Se connecter</a></p>
                 </div>
             </form>
         </div>
     </section>
+    <script src="../JS/SignUp.js"></script>
 </body>
 </html>
