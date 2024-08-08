@@ -9,3 +9,21 @@ Page d'accueil:
 
 Page Destinations:
 ![image](https://github.com/user-attachments/assets/cdbc1ed8-2b9c-4f40-b34e-dbc22470c21c)
+
+Page Packages:
+![image](https://github.com/user-attachments/assets/3b090ae4-19bf-4ac1-9d8e-9af23db9b8d9)
+
+Page Paiement:
+![image](https://github.com/user-attachments/assets/25a3f93f-237b-47c5-9157-2792f3192f11)
+
+Page Contact:
+![image](https://github.com/user-attachments/assets/c124cb24-27af-4c1c-a437-dfbf0b357f8c)
+
+Page Login:
+![image](https://github.com/user-attachments/assets/75b55064-f011-49c3-b1a8-a478874ad77b)
+
+Page S'inscrire:
+![image](https://github.com/user-attachments/assets/6727d91c-cbcf-489e-8487-e26aaf440267)
+
+Page Mot de Passe Oublié:
+![image](https://github.com/user-attachments/assets/b429e4ed-d55f-43a3-8529-6ab2f31dcf9f)
