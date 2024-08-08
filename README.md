@@ -3,3 +3,5 @@ Mais MarGo, c'est bien plus qu'un simple guide touristique. C'est une invitation
 En explorant notre site, vous découvrirez également des témoignages et des histoires de voyageurs qui ont été séduits par ce pays magique, tout comme vous. Leurs expériences et leurs aventures vous inciteront à découvrir des endroits moins explorés, à expérimenter des activités originales et à forger vos propres souvenirs exceptionnels.
 Chez MarGo, nous sommes profondément convaincus que voyager offre des opportunités infinies pour découvrir et s'épanouir sur le plan personnel. C'est ainsi que nous faisons tout notre possible pour vous offrir les informations les plus précises et actualisées afin de garantir des expériences authentiques et inoubliables au Maroc.
 Nous espérons que votre visite sur notre site sera agréable et que MarGo vous accompagnera dans la découverte des merveilles du Maroc.
+Page d'accueil:
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/002d1980-46a2-4bb3-a675-3fc49c66fa6b">
