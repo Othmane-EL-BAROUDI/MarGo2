@@ -6,3 +6,6 @@ Nous espérons que votre visite sur notre site sera agréable et que MarGo vous 
 
 Page d'accueil:
 <img width="944" alt="image" src="https://github.com/user-attachments/assets/002d1980-46a2-4bb3-a675-3fc49c66fa6b">
+
+Page Destinations:
+![image](https://github.com/user-attachments/assets/cdbc1ed8-2b9c-4f40-b34e-dbc22470c21c)
